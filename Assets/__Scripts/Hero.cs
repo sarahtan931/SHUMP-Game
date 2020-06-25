@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hero : MonoBehaviour
 {
@@ -76,6 +77,7 @@ public class Hero : MonoBehaviour
         if(go.tag == "Enemy") { //if the shield was triggered by an enemy 
             shieldLevel--; //decrease the level of the shield by 1
             Destroy(go); //and destroy the enemy 
+
         }
         else
         {
@@ -94,9 +96,17 @@ public class Hero : MonoBehaviour
             {
                 Destroy(this.gameObject);
                 //tell Main.S to restart the game after the delay
-                Main.S.DelayedRestart(gameRestartDelay);
+                LoadNextScene();
+              
             }
         }
+    }
+
+    public void LoadNextScene()
+    {
+      
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 }
 

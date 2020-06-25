@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{205EDA12-6480-118F-139B-DF40BACD4618}</ProjectGuid>
+    <ProjectGuid>{048F6FA9-6E1B-E00D-050D-5277B48C9DB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -72,40 +72,41 @@
     <Compile Include="Assets\__Scripts\Hero.cs" />
     <Compile Include="Assets\__Scripts\Main.cs" />
     <Compile Include="Assets\__Scripts\Projectile.cs" />
+    <Compile Include="Assets\__Scripts\SceneLoader.cs" />
     <Compile Include="Assets\__Scripts\Weapon.cs" />
     <None Include="Assets\_Materials\UnlitAlpha.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/SHUMP Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Sarah Tan/Documents/GitHub/SHUMP-Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
